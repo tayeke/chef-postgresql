@@ -1,4 +1,4 @@
-define :pg_user, action: :create do
+define :pg_user, :action => :create do
   role_name = params[:name]
 
   case params[:action]
