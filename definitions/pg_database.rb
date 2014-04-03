@@ -1,4 +1,4 @@
-define :pg_database, action: :create do
+define :pg_database, :action => :create do
 
   defaults    = {
     user: "postgres",
